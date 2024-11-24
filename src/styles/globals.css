@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  margin: 0px;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #ededed;
+  color: #0a0a0a;
+}
+
+.example-global-css {
+  color: red;
+}
+
+[data-testid="right-icon"] {
+  pointer-events: unset;
+}
